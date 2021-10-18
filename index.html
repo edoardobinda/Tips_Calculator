@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" async src="./app.js"></script> 
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">  
+    
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="box">
+        <h1 id="tipstitle" class="title">Tips calculator</h1>
+
+        <div id="campi" class="campi">
+            <label class="label1"> How much was your bill?
+                <input class="" id="billNumber" min="0" step="0.01" type="number" required pattern="" value="" placeholder="">
+            </label>
+            <label class="label2"> How many people sharing the bill?
+                <input class="" id="peopleNumber" type="number" required pattern="" value="" placeholder="">
+            </label>
+            <label for="percentage" class="label3"> How was your service?
+                <select name="percentage" id="percentage">
+                <option id="value0" value="0">Choose...</option>
+                <option id="value20" value="1">Great - 20%</option>
+                <option id="value10" value="2">Good - 10%</option>
+                <option id="value2" value="3">Bad - 2%</option>
+                </select>            
+            </label>
+        </div>
+        <div>
+            <button id="calculate" onclick="prova()">Calculate</button>
+        </div>
+        
+
+        <div id="risposta1"></div>
+        <div id="risposta2"></div>
+        <div id="risposta3"></div>
+        
+        
+            
+    </div>
+</body>
+</html>
