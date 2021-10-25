@@ -1,34 +1,104 @@
+body{
+background-color: rgb(139, 193, 214); 
+}
 .box{
-    margin: 0 auto;
+    margin: 0 auto; 
     border: solid 1px black;
-    max-width: 700px;
+    background-color: white;
+    max-width: 900px;
+    border-radius: 1%;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    margin-top: 15%;
+  
     }
 .title{
     text-align: center;
-}
+    margin-top: auto;
+    background-color: rgb(64, 64, 161);
+    color: white;
+    margin-top: 0px;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+    }
+#alertwhat{
+    display: block;
+    color: rgb(156, 121, 127);
+    text-align: center;
+    background-color: rgb(243, 184, 193);
+    max-width: 75%;
+    padding: 20px;
+    margin: auto;
+    }
 .campi{
+    display: block;
+    /* border: red solid 1px; */
+    margin: 2%;
+    flex-direction: row;;
+    }
+.label1, .label2{
+    margin-left: 0px;
+    }
+.iconinput{
     display: flex;
-    flex-direction: column;;
+    flex-direction: row;
+    margin-top: 20px;
     }
-.label1{
-        margin: 20px;
+#icon1::before{
+    background-color: rgb(64, 64, 161);
+    color: white;
+    padding: 10px;
+    font-family: "Font Awesome 5 Free";
+    content: "\f155";
+    font-weight: 600;
+    font-size: 8px;
+    text-align: center;
+    text-align: center;
+    border-radius: 8%;
     }
-.label2{
-        margin: 20px;
+#icon2::before{
+    background-color:rgb(64, 64, 161);
+    color: white;
+    padding: 10px;
+    font-family: "Font Awesome 5 Free";
+    content: "\f007";
+    font-weight: 600;
+    font-size: 6px;
+    text-align: center;
+    text-align: center;
+    border-radius: 8%;
     }
-.label3{
+.inputs{
+    display: inline-block;
+    flex-direction: row;
+    height: 20px;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    }
+.label{
     margin: 20px;
+    display: block;
     }
-#billNumber{
-    margin-left: 132px;
-}
-#peopleNumber{
-    margin-left: 75px;
-}
-#percentage{
-    margin-left: 150px;
-}
+#percentage {
+    width: 100%;
+    }
 #calculate{
     display: block;
     margin: 0 auto;
-}
+    margin-top: 35px;
+    }
+#billNumber, #peopleNumber{
+    margin-bottom: 25px;
+    }
+
+#risposte{
+    margin-left: 35px;
+    padding: 5px;
+    }
+#risposta1,#risposta2,#risposta3{
+    padding: 5px;
+    }
+
+
